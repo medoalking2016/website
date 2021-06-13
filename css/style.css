@@ -1,0 +1,252 @@
+
+/* Heder */
+.Logo{
+    margin-left: 10%;
+    font-weight: 800;
+}
+/* Section 1 */
+.hero{
+    height: 759px;
+    background-color: #FFFFFF;
+    position:relative;
+    
+}
+.hero a{
+    position:absolute;
+    transform: translate(-50%,74%) !important;
+    left: 50%!important;
+
+}
+.hero img{
+    position:absolute;
+    transform: translate(-50%,74%) !important;
+    left: 50% !important;
+    z-index: 6;
+}
+
+.hero h1{
+    text-align: center;
+    font-weight: 800;
+    line-height: 98px;
+    color: #18191F; 
+}
+/* Section2 */
+.feature{
+    height: 1058px;
+    background-color: #288BFF;
+}
+.feature .elipse{
+    position: absolute;
+    width: 80%;
+    height: 1200px;
+    left: 50%;
+    transform: translate(-50%,-13%) !important;
+    border-radius: 50%;
+    background-color: #288BFF;
+    z-index: 5;
+}
+
+.feature .head h2{
+    z-index: 6;
+    font-weight: 800;
+    color: #FFFFFF;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 15px;
+}
+.feature .card{
+    z-index: 6;
+    margin: 1%;
+    border-radius: 5px;
+    margin-left: 59px;
+    
+}
+.feature .card-img-top{
+    width: 32px;
+    height: 32px;
+    margin-left: 15px;
+    margin-top: 15px; 
+}
+.feature .card a img{
+    margin-left: 5px;
+}
+/* section 3 */
+.our-work{
+    height: 1200px;
+}
+.our-work h2{
+    text-align: center;
+    line-height: 91px;
+    font-weight: 800;
+}
+.our-work .card {
+    margin: 1%;
+    margin-left: 59px;
+}
+.our-work .pic-background{
+    background-color: aqua;
+    border-radius: 5px;
+}
+
+/* Section 4 */
+.bg-primary{
+    color: #FFFFFF!important;
+}
+.background-blue{
+    background-color: #288BFF;
+    height: 200px;
+}
+.stats{
+    height: 355px;
+}
+.stats .count-card{
+    transform: translate(0%,-42%) !important;
+    height: 240px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+    border-radius: 8px;
+}
+.stats .count-card .card{
+    border: none;
+}
+.stats .count-card .card .card-img-top{
+    margin-top: 32px;
+    margin-left: 92px;
+    width: 64px;
+    height: 64px;
+}
+.stats .count-card .card h2{
+    text-align: center;
+    font-weight: 800;
+    line-height: 64px;
+}
+.stats .count-card .card .bottom-text{
+    line-height:  32px;
+    text-align: center;
+    font-weight: 400;
+}
+
+
+/* Section 5 */
+.steps{
+    height: 444px;
+    background: #FFFFFF;
+}
+.steps h2{
+    text-align: center;
+    line-height: 64px;
+}
+.steps .count-card{
+    height: 240px;
+}
+.steps .count-card .card{
+    border: none;
+}
+.steps .count-card .card .card-img-top{
+    margin-top: 32px;
+    margin-left: 92px;
+    width: 64px;
+    height: 64px;
+}
+.steps .count-card .card h4{
+    text-align: center;
+    font-weight: 700;
+    line-height: 28px;
+}
+.steps .count-card .card .bottom-text{
+    line-height:  32px;
+    text-align: center;
+    font-weight: 400;
+}
+.cta{
+    height: 344px;
+    background: #FFFFFF;
+    text-align: center;
+}
+.cta h2{
+    line-height: 64px;
+    color: #18191F;
+    font-weight: 800;
+}
+.cta a{
+    margin-top: 40px;
+}
+
+
+/* Footer */
+.footer{
+    min-height: 470px;
+    background-color: #050505; 
+    color: #D9DBE1;
+}
+.footer h1,.footer h2{
+    color: rgb(255, 255, 255);
+}
+
+.end-footer{
+    margin-top: 10%;
+}
+
+@media screen and (max-width:768px){
+    .feature{
+        height: 1481px;
+    }
+    .our-work{
+        height: 407%;;
+    }
+    .stats {
+        height: 130%;
+    }
+    .stats .count-card .card .card-img-top{
+        margin-left: 218px;
+    }
+    .steps .count-card .card .card-img-top{
+        margin-left: 227px;
+    }
+    .steps {
+        height: 107%;
+    }
+    
+    
+}
+@media screen and (max-width:400px){
+    .stats .count-card .card .card-img-top{
+        margin-left: 175px;
+    }
+}
+
+/* Job */
+.careers{
+    height: 320px;
+    background-color: #ECECEC;
+
+}
+.careers h1{
+    text-align: center;
+    padding-top: 7%;
+}
+.careers p{
+    text-align: center;
+}
+
+.form-17{
+    height: 600px;
+}
+ .form-17 .form-main .row{
+     margin-top: 15px;
+ }
+ .form-17 .form-main select{
+    padding: 0.375rem 0.75rem;
+    margin-top: -1 !important;
+    width: 100%; 
+ }
+ .form-17 .form-main textarea{
+    height: 200px;
+ }
+ .form-17 .form-main input[type="checkbox"]{
+     margin-top: 15px;
+ }
+
+ .form-17 .texts{
+     margin-top: 15px;
+ }
